@@ -1,0 +1,106 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGUlMjAlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-image: url("https://images.unsplash.com/photo-1642436273791-296f1ab9ef5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHVuaXZlcnNlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+.navbar span a{
+    font-size: 30px;
+    
+    color: rgb(252, 252, 252);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+
+.navbar ul li {
+    text-decoration: none;
+    margin-left: auto;
+    list-style: none;
+    display: inline-block;
+margin: 10px 18px;
+
+}
+.navbar ul li a{
+    font-size: 22px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+}
+.regist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading{
+    margin-top: 37px;
+    color: rgb(100, 99, 99);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+    font-size: 38px;
+}
+.form{
+  
+    /* border: 2px solid rgb(100, 99, 99); */
+display: flex;
+margin: 7px 53px;
+flex-direction: column;
+
+border-radius: 6%;
+height: 354px;
+background-color: white;
+width:30%;
+height: 410px;
+}
+.form button{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 40%;
+   margin: 0 113px;
+}
+.form .form-gender {
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 17px; */
+    font-size: 18px;
+    
+}
+.left,.right{
+    display: flex;
+    flex-direction: column;
+   
+}
+.form input{
+   margin: 8px 45px;
+/* border-radius: 22%; */
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 18px;
+   /* width: 70%; */
+}
+
+.login-form form{
+margin: 27px 492px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 390px;
+
+}
+.login-form form input{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.login-form form .btn{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.login-form img{
+    height: 175px;
+}

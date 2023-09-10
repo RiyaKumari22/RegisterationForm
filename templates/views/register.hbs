@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+<body>
+
+     {{>navbar}}
+     <div class="regist">
+
+    <h2 class="heading">Registeration Form</h2>
+     <form class="form" action="/register" method="post">
+     <div class="left">
+
+        <input type="text" name="firstname" placeholder="First Name">
+        <input type="text" name="lastname"  placeholder="Last Name">
+        <input type="email" name="email" placeholder="Email">
+        <input type="number" minlength="10" maxlength="10" name="phone" placeholder="Phone number">
+     </div>
+     <div class="right">
+        <input type="number" name="age" placeholder="Age">
+
+        <div class="form-gender">
+
+        <input type="radio" name="gender" value="male" checked>
+        <span>Male</span>
+         <input type="radio" name="gender" value="Female" >
+        <span>Female</span>
+        </div>
+        <input type="password" name="password" placeholder="Password">
+        <input type="password" name="confirmpassword" placeholder="Confirm Password">
+     </div>
+   
+
+        <button class="btn btn-dark" type="submit">Register</button>
+   
+
+     </form>
+    
+     </div>
+</body>
+</html>
+   
